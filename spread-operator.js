@@ -17,5 +17,32 @@ console.log(num2, nums);
 const friends = ['mohammod', 'juwel', 'islam', 'alu', 'mama'];
 const dosto = [...friends];
 friends.push('ami push now');
-console.log(dosto)
-console.log(friends)
+console.log(dosto);
+console.log(friends);
+
+
+const sonka = [...friends, 'hollow juwel bro'];
+console.log(sonka);
+
+
+const num4 = ['amar name', 'ami janina', ...friends, 'tarpor', 'kikorbo' , 'ami janina'];
+console.log(num4);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
