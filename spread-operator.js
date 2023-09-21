@@ -5,3 +5,17 @@ console.log(max);
 const numbers = [10, 20, 30, 80, 40, 70, 60];
 const arrMax = Math.max(numbers);
 console.log(arrMax);
+
+const arrMaxNumber = Math.max(...numbers);
+console.log(arrMaxNumber);
+
+const nums = [4, 5, 7, 8, 6];
+const num2 = nums;
+num2.push(12);
+console.log(num2, nums);
+
+const friends = ['mohammod', 'juwel', 'islam', 'alu', 'mama'];
+const dosto = [...friends];
+friends.push('ami push now');
+console.log(dosto)
+console.log(friends)
